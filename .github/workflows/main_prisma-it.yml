@@ -8,7 +8,7 @@ on:
     types:
       - completed
 
-name: "Prisma-IT"
+name: Prisma-IT
 on:
   push:
     branches:
