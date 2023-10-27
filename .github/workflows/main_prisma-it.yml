@@ -4,11 +4,11 @@
 name: Build and deploy JAR app to Azure Web App - prisma-it
 on:
   workflow_run:
-    workflows: ["Your Workflow Name"]
+    workflows: ["Prisma-IT"]
     types:
       - completed
 
-name: Prisma-IT
+name: ["Prisma-IT"]
 on:
   push:
     branches:
